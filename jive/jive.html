@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-family:Arial, Helvetica, sans-serif;
+            background-image: url('home-shapes-mobile.svg');
+            background-repeat: no-repeat;
+            background-size:90%;
+            
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+        }
+        #l1,#l2{
+            margin:10px 10px;
+            height:40px;
+            border-radius: 20px;
+            width:90px;
+            color:black;
+            background-color: white;
+            border:none;
+            font-weight:550;
+            letter-spacing: 0.5px;
+            border:solid 0.1px rgb(217, 217, 217);
+        }
+        #l1:hover{
+           background-color:  rgb(246, 217, 31);
+        }
+        #l2:hover{
+           background-color:  rgb(22, 177, 249);
+        }
+        #l2{
+            margin-left: 8px;
+            background-color: black;
+            color:white;
+        }
+        #dont{
+            text-align: center;
+            font-size: 80px;
+            width:500px;
+            font-weight: 700;
+            margin-left: 35%;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-bottom: 0px;
+        }
+        #con{
+            text-align: center;
+            margin-top:20px;
+            color:grey;
+            font-size: 24px;
+            width:700px;
+            margin-left: 420px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #free,#jiv{
+            height:50px;
+            width:160px;
+            color:white;
+            background-color: black;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 45%;
+            margin-top: 20px;
+        }
+        #hi{
+            color:grey;
+            text-align: center;
+        }
+        .child{
+            width:300px;
+            flex-direction: column;
+            margin:30px;
+        }
+        #image{
+            margin-left:30%;
+            margin-top: 100px;
+        }
+        #ji{
+            display:block;
+            margin: 0 auto;
+        }
+        #par{
+            margin-top: 20px;
+            margin-left:15%;
+        }
+        h1{
+            text-align: center;
+        }
+        #jiv{
+            font-size: 24px;
+            width:180px;
+        }
+        #jiv:hover{
+            background-color: pink;
+            border:none;
+        }
+        #fi{
+            color:grey;
+            text-align: center;
+            margin-top: 20px;
+        }
+        a{
+            text-decoration: none;
+            color:grey;
+            padding: 10px;
+        }
+        #free:hover{
+            background-color:rgb(63 131 248 / 0.5);
+            border:none;
+        }
+        #j:hover{
+            color:rgb(63 131 248 / 0.5);
+        }
+        #p:hover{
+            color:pink;
+        }
+        a:hover{
+            color:orange;
+        }
+        #how{
+            font-size: 32px;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: 30px;
+            width:1500px;
+        }
+        #more{
+            margin-top: 20px;
+            color:grey;
+            text-align: center;
+            font-size: 18px;
+        }
+        #par{
+            display:flex;
+            flex-direction: row;
+        }
+        @media (max-width:800px)
+        {
+            body{
+                align-items: center;
+                justify-content: center;
+            }
+            html{
+               background-size: 390%;
+            }
+            #l1,#l2{
+                font-size: 40px;
+                height:60px;
+                width:200px;
+                padding-right:20px;
+                padding-left: 20px;
+            }
+            #l1{
+               margin-left: 0px;
+            }
+           #dont{
+            font-size: 90px;
+            margin-left: 50%;
+            padding-left: 50%;
+           }
+           #b{
+            display: block;
+            justify-content: center;
+            margin-left: 100%;
+           }
+           #i1{
+            padding-left: 200px;
+           }
+           #free,#jiv{
+             height:120px;
+             width:400px;
+             font-size: 44px;
+             font-weight: 600;
+             letter-spacing: 0.7px;
+             border-radius: 60px;
+             border:none;
+             margin-left: 100%;
+           }
+
+           #con,#fi{
+            margin-left: 50%;
+            padding-left:25% ;
+            max-width: 200%;
+            letter-spacing: 0.7px;
+            word-spacing: 2px;
+            font-size: 40px;
+            line-height: 1.5;
+           }
+           #image{
+            max-width: 300%;
+            height:1200px;
+           }
+           #how{
+            width:600px;
+            font-size: 100px;
+            padding-left: 90%;
+            text-align: center;
+           }
+           #more,#m{
+            font-size: 55px;
+            text-align: center;
+            width:1400px;
+            padding-left: 20%;
+           }
+           #par{
+            display:flex;
+            flex-direction:column;
+           }
+           .child{
+            width: 1100px;
+            padding-left: 5%;
+            line-height: 1.5;
+            flex-direction: column;
+           }
+           h1{
+            font-size: 60px;
+           }
+           #hi{
+            font-size: 50px;
+           }
+           img#ji{
+            height:150px;
+           }
+           #jiv{
+            font-size: 42px;
+            width:480px;
+            height:140px;
+            margin-left: 120%;
+           }
+           #fi{
+              width:300%;
+           }
+           #van{
+            width:300%;
+            text-align: center;
+           }
+           a{
+            margin-left:50px;
+            letter-spacing: 0.7px;
+            font-size: 40px;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div id="b" style="display:flex;flex-direction: row">
+      <div  onmouseover="changes()" onmouseout="restores()">  
+        <img id="i1" src="logo-full.svg" style="height:100px;margin:0 400px;margin-left:660px;display:inline-block">    
+      </div>  
+    <button id="l1">Login</button>
+    <button id="l2">Sign up</button>
+    </div>
+    <p id="dont">Don’t make connecting awkward</p>
+    <p id="con">No more fumbling for business cards or searching for lost contacts after an event. Jive makes it easy to exchange info and keep the conversation going straight from your inbox.</p>
+    <div>
+        <button id="free">Sign up free</button>
+    </div>
+    <img id="image" src="phn.png" height="700px" style="margin-left:30%;margin-top: 100px;">
+    <h1 id="how">Here’s how it works</h1>
+    <div id="more">More jiving, less shucking.</div>
+    <div id="par">
+        <div class="child">
+            <img id="ji"src="icon1.svg">
+            <h1>Scan the QR code</h1>
+            <p id="hi">When it’s time to swap info, have your new contact scan your QR code with their phone camera.</p>
+        </div>
+        <div class="child">
+            <img id="ji"src="icon2.svg">
+            <h1>Send a message</h1>
+            <p id="hi">Your QR code is linked to a custom message you’ve created. So all they have to do is hit Send.</p>
+        </div>
+        <div class="child">
+            <img id="ji"src="icon3.svg">
+            <h1>Follow-up from your inbox</h1>
+            <p id="hi">At the end of the event, you can quickly scan your inbox and reply to everyone you met.</p>
+        </div>
+    </div>
+    <div class="hel">
+    <button id="jiv">Start jiving</button>
+    </div>
+    <div onmouseover="change()" onmouseout="restore()">
+    <img id="i" src="logo-full.svg" style="height:100px;margin-left:660px;margin-top: 70px"> 
+    </div>
+    <div id="fi">Get connected and start jiving.</div>
+    <div id="van" style="text-align: center;margin-top: 20px">
+        <a href="">About</a>
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+        <a href="">Contact</a>
+    </div>
+    <p id="m"style="color:grey;text-align: center;">© 2024 <span id="j">Jive</span> by <span id="p">Plain Sight Ventures</span></p>
+    <script>
+        function change() {
+            var imgElement = document.getElementById("i");
+            imgElement.src = "logo-colors.svg";
+        }
+        function restore() {
+            var imgElement = document.getElementById("i");
+            imgElement.src = "logo-full.svg";
+        }
+        function changes() {
+            var imgElement = document.getElementById("i1");
+            imgElement.src = "logo-colors.svg";
+        }
+        function restores() {
+            var imgElement = document.getElementById("i1");
+            imgElement.src = "logo-full.svg";
+        }
+
+    </script>
+</body>
+</html>
